@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import apiClient from '../api/client';
 import { Button } from '../components/ui/Button';
 import { Input } from '../components/ui/Input';
-import { ArrowLeft, MailCheck } from 'lucide-react';
 import toast from 'react-hot-toast';
+import { ArrowLeft, MailCheck } from 'lucide-react';
 
 export default function ForgotPassword() {
   const [email, setEmail] = useState('');
